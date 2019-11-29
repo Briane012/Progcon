@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Rams"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2019-11-29 09:05:03 AM"/>
+        <attribute name="created" value="UmFtcztMQUIzMDRDMTY7MjAxOS0xMS0yOTswODoxNzozOSBBTTsyMjEz"/>
+        <attribute name="edited" value="UmFtcztMQUIzMDRDMTY7MjAxOS0xMS0yOTswOTowNTowMyBBTTs2OzIzMTU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Grade" type="Integer" array="False" size=""/>
+            <output expression="&quot;Hello maam/sir, can you please put your rating grade so that we can turn it get the equivalent of your grade&quot;" newline="True"/>
+            <input variable="Grade"/>
+            <if expression="Grade &gt;= 95">
+                <then>
+                    <output expression="&quot;your grade will be 4.0&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="Grade &gt;= 91">
+                        <then>
+                            <output expression="&quot;your grade will be 3.5&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="Grade &gt;= 87">
+                                <then>
+                                    <output expression="&quot;your grade will be 3.0&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="Grade &gt;= 83">
+                                        <then>
+                                            <output expression="&quot;your grade will be 2.5&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="Grade &gt;= 79">
+                                                <then>
+                                                    <output expression="&quot;your grade will be 2.0&quot;" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="Grade &gt;= 75">
+                                                        <then>
+                                                            <output expression="&quot;your grade will be 1.5&quot;" newline="True"/>
+                                                        </then>
+                                                        <else>
+                                                            <if expression="Grade &gt;= 70">
+                                                                <then>
+                                                                    <output expression="&quot;your grade will be 1.0&quot;" newline="True"/>
+                                                                </then>
+                                                                <else>
+                                                                    <if expression="Grade &gt;= 69">
+                                                                        <then>
+                                                                            <output expression="&quot;your grade will be R&quot;" newline="True"/>
+                                                                            <output expression="&quot;You get R due to a lot of absents&quot;" newline="True"/>
+                                                                            <output expression="&quot;But if you don't have absents then you may get the grade of 0.0, it means you didn't pass the subject due to your grade performance&quot;" newline="True"/>
+                                                                        </then>
+                                                                        <else/>
+                                                                    </if>
+                                                                </else>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

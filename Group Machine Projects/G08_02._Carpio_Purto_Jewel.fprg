@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Rams"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-01-17 08:53:24 AM"/>
+        <attribute name="created" value="UmFtcztMQUIzMDRDMTY7MjAyMC0wMS0wNzswOTowNTozNCBBTTsyMTkz"/>
+        <attribute name="edited" value="UmFtcztMQUIzMDRDMTY7MjAyMC0wMS0wNzswOToxMzo1MSBBTTsxOzIyOTk="/>
+        <attribute name="edited" value="UmFtcztMQUIzMDRDMjA7MjAyMC0wMS0xNzswODo1MzoyNCBBTTsxOzIyOTg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Goodmorning, this program was made by Allen, Briane and Jewel&quot;" newline="True"/>
+            <output expression="&quot;this program is about identifying the birthday of the person&quot;" newline="True"/>
+            <declare name="Age" type="Integer" array="False" size=""/>
+            <output expression="&quot;please enter your age&quot;" newline="True"/>
+            <input variable="Age"/>
+            <if expression="age&gt;18">
+                <then>
+                    <output expression="&quot;May 15, 2001&quot;" newline="True"/>
+                    <output expression="&quot;Briane A. Carpio&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;May 21, 2003&quot;" newline="True"/>
+                    <output expression="&quot;Jewel, Tigson&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
